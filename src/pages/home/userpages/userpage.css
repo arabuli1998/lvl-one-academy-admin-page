@@ -1,0 +1,30 @@
+.container {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+}
+.grid1 {
+  
+  min-height: 600px;
+  max-height: 850px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+.grid1 h3{
+    display: flex;
+    color:gray;
+}
+.grid1 h3 h4{
+    color: red;
+}
+.top{
+  width: 100%;
+}
