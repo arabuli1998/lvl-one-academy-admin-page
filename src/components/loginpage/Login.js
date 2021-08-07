@@ -147,7 +147,7 @@ giorgi@gm.com
           placeholder="password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button onClick={loggin}>log in</button>
+        <button onClick={loggin}>Log in</button>
         </div>
 
         <h1>{login}</h1>
