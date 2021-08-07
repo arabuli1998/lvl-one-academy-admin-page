@@ -76,7 +76,7 @@ function Register() {
         value={password_confirmation}
         onChange={(e) => setPassword_confirmation(e.target.value)}
       />
-      <Button onClick={signup}>register</Button>
+      <Button onClick={signup}>Register</Button>
     </Form>
   );
 }
